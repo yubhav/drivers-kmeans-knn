@@ -5,19 +5,19 @@ Lithionpower is the largest provider of electric vehicle (e-vehicle) batteries. 
 
 Drivers will be incentivized based on the cluster, so grouping has to be accurate.
 
-id: unique id of the driver
-mean_dist_day: mean distance driven by driver per day
-mean_over_speed_perc: mean percentage of time when driver exceeded the 5 mph over speed limit
-increase in profits: up to 15-20% as drivers with poor history will be charged more
+id: unique id of the driver  
+mean_dist_day: mean distance driven by driver per day  
+mean_over_speed_perc: mean percentage of time when driver exceeded the 5 mph over speed limit  
+increase in profits: up to 15-20% as drivers with poor history will be charged more  
 
 ## Method
 
- - added a new field "profit" to the dataset as it was missing
+ - added a new field "profit" to the dataset as it was required
  - used k-means for clustering (number of clusters taken as four)
  - used knn for classification
  - printed classification report
  - appropriate comments have been added in the file before each step
 
 ## References
-The original driver-data.csv dataset was taken from https://github.com/Suhong-Liang/K-Mean-Clustering
+The original driver-data.csv dataset was taken from https://github.com/Suhong-Liang/K-Mean-Clustering  
 It contains 4000 records
